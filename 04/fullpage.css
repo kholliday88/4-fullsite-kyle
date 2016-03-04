@@ -1,20 +1,65 @@
 header {
-    background-color: orangered;
+    background-color: #ff8533;
+    font-size: 14px;
+    padding-left: 5%;
+    line-height: 15px;
+    width: 100%;
     color: white;
+    box-sizing: border-box;
 }
-header>ul {
+header ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
 }
 header li {
-    display: inline;
-    float: left;
-}
-header li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: white;
+    float: left;
 }
+ul>#free {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 8px;
+    background-color: #e65c00;
+    border-radius: 3px;
+}
+
+/* Logo Banner */
+
+#two>img {
+    width: 140px;
+    height: 115px;
+}
+#two {
+    display: inline-flex;
+    width: 100%;
+    padding-left: 8.5%;
+    box-sizing: border-box;
+    border-image: url(assets/perforated-bottom@2x.png) 10 round;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px;
+}
+#two ul {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#two li {
+    background-color: white;
+    display: inline-block;
+    font-size: 25px;
+    margin: 2%;
+    text-align: center;
+}
+#two li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Border */
