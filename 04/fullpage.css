@@ -44,6 +44,7 @@ ul>#free {
     border-left: 0;
     border-right: 0;
     border-bottom: 5px;
+    position: relative;
 }
 #two ul {
     width: 50%;
@@ -62,4 +63,43 @@ ul>#free {
     color: black;
 }
 
-/* Border */
+/* Third Row */
+
+#three {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    padding-bottom: 5%;
+}
+#ties {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#ties figure {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -13%;
+    padding-top: 9%;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+#ties a {
+    text-decoration: none;
+    color: black;
+}
+#three p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto;
+    margin-top: 3%;
+    font-size: 55px;
+}
+#ties a img {
+    height: auto;
+    width: 90px;
+    align-content: center;
+}
+#ties figcaption {
+    width: 90px;
+}
