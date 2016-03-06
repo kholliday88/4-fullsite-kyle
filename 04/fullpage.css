@@ -24,7 +24,7 @@ header li {
     color: white;
     float: left;
 }
-ul>#free {
+ul #free {
     padding-top: 6px;
     padding-bottom: 6px;
     margin: 8px;
@@ -35,7 +35,7 @@ ul>#free {
 
 /* Logo Banner */
 
-#two>img {
+#two img {
     width: 140px;
     height: 115px;
 }
@@ -43,6 +43,7 @@ ul>#free {
     display: inline-flex;
     width: 100%;
     padding-left: 8.5%;
+    padding-right: 7%;
     box-sizing: border-box;
     border-image: url(assets/perforated-bottom@2x.png) 10 round;
     border-top: 0;
@@ -68,18 +69,31 @@ ul>#free {
     color: black;
 }
 #right {
-    width: 300px;
-    padding-top: 20px;
+    width: 30%;
+    padding-top: 10px;
+    text-align: right;
 }
 #right p {
-    display: inline;
+    display: inline-flex;
     font-size: 13px;
+    padding-left: 10px;
 }
 #right form {
-    display: inline;
+    display: inline-block;
+    border: 5px solid #f4f4f4;
+    border-radius: 5px;
+    margin-left: 7px;
+}
+#right form input {
+    height: 18px;
+    padding: 1px;
 }
 #right a {
-    display: inline
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid #ebebeb;
+    text-decoration: none;
+    border-radius: 3px;
 }
 
 /* Third Row */
