@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
 header {
     background-color: #ff8533;
     font-size: 14px;
@@ -16,7 +21,6 @@ header li {
     display: block;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
     color: white;
     float: left;
 }
@@ -26,6 +30,7 @@ ul>#free {
     margin: 8px;
     background-color: #e65c00;
     border-radius: 3px;
+    letter-spacing: 1px;
 }
 
 /* Logo Banner */
@@ -62,6 +67,20 @@ ul>#free {
     text-decoration: none;
     color: black;
 }
+#right {
+    width: 300px;
+    padding-top: 20px;
+}
+#right p {
+    display: inline;
+    font-size: 13px;
+}
+#right form {
+    display: inline;
+}
+#right a {
+    display: inline
+}
 
 /* Third Row */
 
@@ -70,6 +89,7 @@ ul>#free {
     box-sizing: border-box;
     background-color: #f4f4f4;
     padding-bottom: 5%;
+    border-bottom: .5px solid #ebebeb;
 }
 #ties {
     display: flex;
@@ -81,7 +101,7 @@ ul>#free {
     margin-right: 2%;
     margin-top: -13%;
     padding-top: 9%;
-    padding-right: 15px;
+    padding-right: 10px;
     padding-left: 10px;
 }
 #ties a {
@@ -97,9 +117,206 @@ ul>#free {
 }
 #ties a img {
     height: auto;
-    width: 90px;
+    width: 80px;
     align-content: center;
 }
 #ties figcaption {
     width: 90px;
+}
+
+/* Row 4 */
+
+#four {
+    display: inline-flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+    padding-top: 40px;
+}
+#four img {
+    width: 330px;
+    height: auto;
+    position: relative;
+    border: 1px solid #ebebeb;
+}
+.asc {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin: 9px;
+}
+.asc .display {
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 30px;
+    text-align: right;
+    font-size: 25px
+}
+
+/* fifth row */
+
+#five {
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 4%;
+    border-bottom: 9px solid transparent;
+    border-image: url(assets/hatch-light@2x.png) 0 0 15 0 repeat;
+}
+#five p {
+    margin-bottom: auto;
+}
+#five a {
+    font-size: 20px;
+    align-content: center;
+    text-decoration: none;
+    color: #3e9efc;
+}
+
+/* Sixth Row */
+
+#six {
+    box-sizing: border-box;
+    width: 100%;
+    display: inline-flex;
+    padding-left: 7%;
+    padding-right: 19%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-image: url(assets/perforated-bottom@2x.png) 10 round;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px;
+    position: relative;
+}
+#six img {
+    width: 230px;
+    height: auto;
+    border: 1px solid #ebebeb;
+}
+.guide h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.guide {
+    width: 25%;
+    height: 25%;
+    display: table;
+    padding-right: 2%;
+    padding-left: 2%;
+    font-size: 14px;
+    line-height: 20px;
+}
+.guide a {
+    text-decoration: none;
+    color: #3e9efc;
+}
+.guide input {
+    padding: 6px;
+    width: 220px;
+    font-size: 13px;
+    border: 5px solid #f4f4f4;
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+.guide button {
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 6px;
+    background-color: #3e9efc;
+}
+.guide p {
+    margin-top: auto
+}
+
+/* Seventh Row */
+
+#seven {
+    background-color: #f4f4f4;
+    display: inline-flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-top: 5px;
+    margin: 0;
+}
+#seven h4 {
+    margin-bottom: auto;
+}
+#left {
+    float: left;
+    display: inline-flex;
+}
+#left a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #969696;
+}
+#bottom {
+    float: right;
+    margin-right: 10%;
+    width: 280px;
+    height: 85px;
+    align-content: flex-start;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 19px;
+    background-color: #a2afc0;
+    border-radius: 3px;
+    color: white;
+}
+#bottom h3 {
+    display: block;
+    margin: 0;
+    font-size: 25px;
+    font-style: italic;
+}
+#bottom button {
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    float: right;
+    margin-top: 25px;
+    background-color: #3e9efc;
+    color: white;
+    border: 1px solid #398cdd;
+}
+#bottom p {
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #f4f4f4;
+    font-size: 10px;
+    padding-left: 5%;
+    width: 100%;
+    color: black;
+    box-sizing: border-box;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8%;
+    color: #969696;
 }
