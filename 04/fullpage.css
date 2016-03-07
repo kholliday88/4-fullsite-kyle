@@ -1,4 +1,5 @@
-body {
+body,
+html {
     margin: 0;
     padding: 0;
     font-family: Tahoma;
@@ -72,28 +73,32 @@ ul #free {
     width: 30%;
     padding-top: 10px;
     text-align: right;
+    margin-top: 0;
 }
 #right p {
     display: inline-flex;
     font-size: 13px;
     padding-left: 10px;
+    color: #989898;
 }
 #right form {
     display: inline-block;
     border: 5px solid #f4f4f4;
     border-radius: 5px;
-    margin-left: 7px;
+    background-color: #f4f4f4;
 }
 #right form input {
     height: 18px;
+    width: 194px;
     padding: 1px;
 }
 #right a {
     display: inline-block;
-    padding: 3px 10px;
+    padding: 3px 12px;
     border: 1px solid #ebebeb;
     text-decoration: none;
     border-radius: 3px;
+    color: #5a5a5a;
 }
 
 /* Third Row */
@@ -168,7 +173,8 @@ ul #free {
     right: 0;
     padding-right: 30px;
     text-align: right;
-    font-size: 25px
+    font-size: 22px;
+    font-weight: bold;
 }
 
 /* fifth row */
@@ -179,7 +185,7 @@ ul #free {
     display: inline-block;
     margin-bottom: auto;
     margin-top: auto;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     padding-top: 1.5%;
     padding-left: 1%;
@@ -190,12 +196,14 @@ ul #free {
 }
 #five p {
     margin-bottom: auto;
+    font-style: italic;
 }
 #five a {
-    font-size: 20px;
+    font-size: 18px;
     align-content: center;
     text-decoration: none;
     color: #3e9efc;
+    letter-spacing: 2px;
 }
 
 /* Sixth Row */
@@ -237,6 +245,35 @@ ul #free {
     text-decoration: none;
     color: #3e9efc;
 }
+p.social-captions ul li {
+    padding-right: 2px;
+}
+.social-media {
+    display: inline-block;
+    background-image: url('assets/sprite@2x.png');
+    height: 77px;
+    width: 77px;
+    zoom: .5;
+    text-decoration: none;
+}
+#social ul {
+    list-style-type: none;
+}
+#social ul li {
+    display: inline;
+}
+.social-media ul li a {
+    text-decoration: none;
+}
+.facebook {
+    background-position: -540px 0;
+}
+.pinterest {
+    background-position: -540px -80px;
+}
+.twitter {
+    background-position: -540px -160px;
+}
 .guide input {
     padding: 6px;
     width: 220px;
@@ -257,7 +294,7 @@ ul #free {
     background-color: #3e9efc;
 }
 .guide p {
-    margin-top: auto
+    margin-top: 2px;
 }
 
 /* Seventh Row */
@@ -289,7 +326,6 @@ ul #free {
     margin-right: 10%;
     width: 280px;
     height: 85px;
-    align-content: flex-start;
     margin-top: 10px;
     display: inline-block;
     padding: 19px;
@@ -300,8 +336,9 @@ ul #free {
 #bottom h3 {
     display: block;
     margin: 0;
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic;
+    font-weight: normal;
 }
 #bottom button {
     padding: 10px 10px;
@@ -317,7 +354,10 @@ ul #free {
     display: inline-block;
     width: 160px;
     height: 50px;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    padding-top: 3px;
 }
 
 /* Footer */
@@ -333,4 +373,83 @@ footer {
     padding-bottom: 4px;
     padding-left: 8%;
     color: #969696;
+}
+
+/* Second Page - Specific CSS */
+
+.page2 {
+    padding-left: 10%;
+    padding-right: 20%;
+}
+#founder {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: -2px;
+    display: inline-block;
+    border-bottom: 1px solid #ebebeb;
+    display: inline-flex;
+    align-items: flex-start;
+    font-weight: 300px;
+    align-items: center;
+}
+#ourstory {
+    margin-top: none;
+    padding-top: none;
+    margin-bottom: 0;
+}
+#ourstory h2 {
+    padding: 0;
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    line-height: 1;
+    text-align: center;
+}
+#founder img {
+    height: auto;
+    width: 230px;
+    position: relative;
+    margin-right: 3%;
+    border: 2px solid gray;
+}
+#founder2 {
+    padding: 0% 9%;
+    text-decoration: none;
+    margin-top: 9%;
+    margin-bottom: 5%;
+}
+#founder2 a {
+    text-decoration: none;
+    color: #3e9efc;
+}
+#done {
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: inline-flex;
+    align-items: center;
+    border-image: url(assets/perforated-bottom@2x.png) 10 round;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px;
+    position: relative;
+}
+#done p {
+    background-color: none;
+    display: inline-block;
+    width: 30%;
+    margin-right: auto;
+}
+#done img {
+    height: auto;
+    width: 250px;
+    margin-right: auto;
 }
